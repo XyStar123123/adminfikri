@@ -6,6 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <section class="version-section">
+            
+        </section>
+    </div>
 </body>
 </html>
