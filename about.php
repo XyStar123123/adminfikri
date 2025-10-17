@@ -46,7 +46,7 @@
                     <i data-lucide="info"></i>
                     <span class="description-header">Description:</span>
                     <span class="description-app">
-                    Admin Fikri adalah aplikasi khusus admin untuk mengelola data data pada suatu organisasi agar lebih cepat dan efisien
+                    Admin Fikri adalah Sebuah aplikasi anomali khusus admin untuk mengelola data data pada suatu organisasi agar lebih cepat dan efisien
                     </span>
                 </div>
 
