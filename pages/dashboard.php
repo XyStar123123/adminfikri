@@ -5,13 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="website icon" href="../img/icon.png">
     <title>Admin Panel - Dashboard</title>
-    <style></style>
+    <style>
+        .sidebar {
+            width: 300px;
+            border-right: 1px solid rgba(0,0,0,0.05);
+            padding: 15px;
+        }
+        .icon {
+            display: flex;
+            width: 5rem;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <nav></nav>
-        </header>
-    </div>
+    <aside class="sidebar">
+        <div>
+            <img src="../img/icon.png" class="icon">
+            <p style="display: inline;">Admin Panel</p>
+        </div>
+    </aside>
 </body>
 </html>
