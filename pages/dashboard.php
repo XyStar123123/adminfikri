@@ -9,7 +9,7 @@
         * {
             margin: 0;
             font-family: ui-sans-serif, sans-serif;
-            overflow: hidden;
+            /* overflow: hidden; */
         }
         .sidebar {
             margin-left: 8px;
