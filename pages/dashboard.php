@@ -15,6 +15,7 @@
         main {
             padding: 10px;
             background-color: #f5f7fb;
+            width: 100%;
         }
     </style>
 </head>

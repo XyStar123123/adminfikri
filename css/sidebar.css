@@ -4,6 +4,7 @@
     border-right: 1px solid rgba(59, 118, 209, .5);
     height: 100vh;
     padding: 20px;
+    font-family: ui-sans-serif, sans-serif;
 }
 .icon {
     display: flex;
