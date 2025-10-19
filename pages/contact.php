@@ -7,7 +7,6 @@
     <link rel="website icon" href="../img/icon.png">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/contact.css">
-    <link rel="stylesheet" href="../css/sidebar.css">
 </head>
 <body>
     <?php include '../folder/sidebar.php'; ?>
@@ -21,5 +20,6 @@
             <div class="contact-information"></div>
         </div>
     </div>
+</div>
 </body>
 </html>
