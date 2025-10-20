@@ -14,7 +14,7 @@
     </style>
 </head>
 <body>
-    <?php include '../folder/sidebar.php' ?>
+    <?php include_once '../folder/sidebar.php' ?>
 
     </div> <!-- Menutup div di sidebar.php -->
 </body>
