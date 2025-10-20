@@ -68,8 +68,71 @@
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, .2);
 }
 
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.nav-link-container{
+    list-style: none;
+    gap: 16px;
+    display: flex;
+}
+
+.search-container{
+    width: 400px;
+    position: relative;
+}
+
+.search-container input{
+    width: 100%;
+    outline: 2px solid rgb(210, 210, 210);
+    border-radius: 4px;
+    padding: .30rem 0 .30rem 2rem;
+    border: none;
+}
+
+.search-container svg{
+    position: absolute;
+}
+
+.nav-link svg{
+    width: 24px;
+    height: 24px;
+}
+
+.search-container svg{
+    width: 18px;
+    height: 18px;
+    top: 4px;
+    left: 5px;
+    stroke: rgb(210, 210, 210);
+}
+
+.nav-link{
+    color: black;
+}
+
+.profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: inherit;
+}
+
 .content{
-    padding: 2rem;
     height: 100vh;
     overflow: auto;
+    flex: 1;
 }
