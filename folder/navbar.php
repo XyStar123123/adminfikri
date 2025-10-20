@@ -1,7 +1,7 @@
 <nav class="navbar">
     <div class="search-container">
         <i data-lucide="search"></i>
-        <input type="text">
+        <input type="text" placeholder="Search something in here...">
     </div>
     <ul class="nav-link-container">
         <li class="nav-item">
