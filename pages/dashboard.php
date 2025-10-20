@@ -8,7 +8,7 @@
     <title>Admin Panel - Dashboard</title>
 </head>
 <body>
-    <?php include '../folder/sidebar.php'; ?>
+    <?php include_once '../folder/sidebar.php'; ?>
     <main>
         
     </main>
