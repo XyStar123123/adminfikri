@@ -25,7 +25,7 @@
 .app-info-header::before{
     position: absolute;
     content: "";
-    width: 40%;
+    width: 65%;
     height: 4px;
     background-image: linear-gradient(to right, #1d1d1d, #3d3d3d);
     bottom: -5px;
@@ -91,7 +91,7 @@
     position: absolute;
     bottom: -10px;
     left: 0;
-    width: 40%;
+    width: 60%;
     height: 4px;
     content: "";
     background-image: linear-gradient(to right, #1d1d1d, #3d3d3d);
