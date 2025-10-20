@@ -15,8 +15,9 @@
             </a>
         </li>
         <li class="nav-item">
-            <a href="" class="nav-link">
-                <i data-lucide="sun"></i>
+            <a class="nav-link" id="darkModeToggle">
+                <i data-lucide="moon" id="moonIcon"></i>
+                <i data-lucide="sun" id="sunIcon" style="display: none;"></i>
             </a>
         </li>
         <li class="profile">
