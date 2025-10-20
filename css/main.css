@@ -62,6 +62,7 @@
 .side-link:hover {
     color: black;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+    transform: translateY(-5px);
 }
 
 .side-link:active {
@@ -72,49 +73,63 @@
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 10px;
     justify-content: space-between;
     gap: 20px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
 }
 
 .nav-link-container{
     list-style: none;
     gap: 16px;
     display: flex;
+    align-items: center;
 }
 
 .search-container{
     width: 400px;
-    position: relative;
+    align-items: center;
+    display: flex;
+    gap: 5px;
 }
 
 .search-container input{
-    width: 100%;
-    outline: 2px solid rgb(210, 210, 210);
-    border-radius: 4px;
-    padding: .30rem 0 .30rem 2rem;
+    flex: 1;
     border: none;
-}
-
-.search-container svg{
-    position: absolute;
-}
-
-.nav-link svg{
-    width: 24px;
     height: 24px;
 }
 
+.search-container input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    color: #3c3c3c;
+}
+
+.search-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container input:focus{
+    outline: none;
+}
+
 .search-container svg{
+    stroke:#3c3c3c;
     width: 18px;
     height: 18px;
-    top: 4px;
-    left: 5px;
-    stroke: rgb(210, 210, 210);
 }
 
 .nav-link{
     color: black;
+}
+
+.nav-link svg{
+    color: #3c3c3c;
+    width: 20px;
+    height: 20px;
 }
 
 .profile{
@@ -135,4 +150,14 @@
     height: 100vh;
     overflow: auto;
     flex: 1;
+    background-color: #f5f7fb;
+    padding: 1rem;
+}
+
+.content-section{
+    margin-top: 1rem;
+}
+
+.side-active{
+    color: pink;
 }

@@ -16,14 +16,6 @@
         </div>
         <main class="content">
             <?php include_once '../folder/navbar.php' ?>
-            <div class="contact-container">
-                <div class="contact-form">
-                    <form action="">
-                        <h2>Contact Form</h2>
-                    </form>
-                </div>
-                <div class="contact-information"></div>
-            </div>
         </main>
     </div>
 <script src="https://unpkg.com/lucide@latest"></script>
