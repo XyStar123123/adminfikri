@@ -1,6 +1,6 @@
-.container{
-    font-family: 'Poppins', sans-serif;
-}
+/* ========== ABOUT STYLING ========== */
+
+/* ----- INFORMATION SECTION ----- */
 
 .app-info-section{
     width: 100%;
@@ -51,6 +51,8 @@
     background-color: rgba(0, 132, 255, 0.08);
     border-radius: 10px;
 }
+
+/* ----- TECHNOLOGY STACK SECTION ----- */
 
 .tech-stack-section{
     padding: 1rem;

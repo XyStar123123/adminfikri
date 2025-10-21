@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Panel - Profile</title>
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/settings.css">
+    <link rel="stylesheet" href="../css/profile.css">
     <link rel="website icon" href="../img/icon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
@@ -13,9 +13,9 @@
 </head>
 <body>
     <div class="container">
-        <?php include '../folder/sidebar.php'; ?>
+        <?php include '../components/sidebar.php'; ?>
         <main class="content">
-            <?php include_once '../folder/navbar.php' ?>
+            <?php include_once '../components/navbar.php' ?>
             <div class="content-section">
                 <div class="profile-container">
                     <section class="profile-header-section">

@@ -13,9 +13,9 @@
 </head>
 <body>
     <div class="container">
-        <?php include '../folder/sidebar.php'; ?>
+        <?php include '../components/sidebar.php'; ?>
         <main class="content">
-            <?php include_once '../folder/navbar.php' ?>
+            <?php include_once '../components/navbar.php' ?>
             <div class="content-section">
                 <section class="app-info-section">
                     <h2 class="app-info-header">

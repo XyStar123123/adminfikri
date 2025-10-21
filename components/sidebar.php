@@ -1,11 +1,11 @@
     <aside class="sidebar">
-        <div class="logo-container">
-            <img src="../img/icon.png" class="icon" style="width: 60px;">
-            <a href="about.php" id="admin">Admin<span id="adminSpan">Panel<span></a>
+        <div class="sidebar-header">
+            <img src="../img/icon.png" class="sidebar-header-icon">
+            <a href="about.php" class="sidebar-header-title">Admin<span class="sidebar-header-title-admin">Panel<span></a>
         </div>
         <nav class="sidebar-link-container">
             <div>
-                <div class="link-header">
+                <div class="side-link-header">
                     <p>PAGES</p>
                     <hr>
                 </div>
@@ -30,7 +30,7 @@
 
         <nav class="sidebar-link-container">
             <div>
-                <div class="link-header">
+                <div class="side-link-header">
                     <p>TABLES</p>
                     <hr>
                 </div>

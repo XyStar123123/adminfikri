@@ -1,5 +1,5 @@
 <nav class="navbar">
-    <div class="search-container">
+    <div class="nav-search-container">
         <i data-lucide="search"></i>
         <input type="text" placeholder="Search something in here...">
     </div>
@@ -10,11 +10,11 @@
             </a>
         </li>
         <li class="nav-item">
-            <div class="notif-container">
+            <div class="nav-notif-container">
                 <a href="" class="nav-link">
                     <i data-lucide="bell"></i>
                 </a>
-                <div class="notif-box">
+                <div class="nav-notif-box">
                     <p>Notification</p>
                 </div>
             </div>
@@ -25,7 +25,7 @@
                 <i data-lucide="sun" id="sunIcon" style="display: none;"></i>
             </a>
         </li>
-        <li class="profile">
+        <li class="nav-profile">
             <img src="../img/profile.png" alt="">
         </li>
     </ul>

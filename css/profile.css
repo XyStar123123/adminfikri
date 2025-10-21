@@ -1,6 +1,6 @@
-body{
-    font-family: 'Poppins', sans-serif;
-}
+/* ========== PROFILE STYLING ========== */
+
+/* ----- PROFILE HEADER-SECTION ----- */
 
 .profile-container{
     display: flex;
@@ -68,6 +68,8 @@ body{
     gap: 4px;
 }
 
+/* ----- PROFILE BODY SECTION ----- */
+
 .profile-body-section{
     display: flex;
     flex-direction: column;
@@ -81,18 +83,6 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     border-radius: 10px;
     gap: 1rem;
-}
-
-.form-input{
-    padding: .5rem;
-    border: 2px solid oklch(87.2% 0.01 258.338);
-    border-radius: 4px;
-    transition: all .2s ease;
-}
-
-.form-input:focus{
-    border: 2px solid rgba(0, 132, 255, 1);
-    outline: 4px solid rgba(0, 132, 255, .3);
 }
 
 .profile-submit-btn-section{
