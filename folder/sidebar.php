@@ -1,4 +1,3 @@
-    <div style="display: flex;">
     <aside class="sidebar">
         <div class="logo-container">
             <img src="../img/icon.png" class="icon" style="width: 60px;">
@@ -14,7 +13,7 @@
                     <i data-lucide="home" class="side-icon"></i>
                     <span class="side-span">Dashboard</span>
                 </a>
-                <a href="../pages/profile.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'settings.php' ? 'side-active' : '' ?>">
+                <a href="../pages/profile.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'profile.php' ? 'side-active' : '' ?>">
                     <i data-lucide="user-square" class="side-icon"></i>
                     <span class="side-span">Profile</span>
                 </a>

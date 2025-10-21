@@ -14,7 +14,6 @@
 <body>
     <div class="container">
         <?php include '../folder/sidebar.php'; ?>
-        </div>
         <main class="content">
             <?php include_once '../folder/navbar.php' ?>
             <div class="content-section">
