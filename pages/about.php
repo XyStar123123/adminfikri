@@ -88,6 +88,10 @@
                             <i class="devicon-mysql-plain icon-tech"></i>
                             <h3>MySQL</h3>
                         </div>
+                        <div class="tech-card">
+                            <i class="devicon-github-plain icon-tech"></i>
+                            <h3>GitHub</h3>
+                        </div>
                     </div>
                 </section>
             </div>

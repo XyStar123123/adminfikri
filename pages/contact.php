@@ -13,10 +13,10 @@
 <body>
     <div class="container">
         <?php include '../folder/sidebar.php'; ?>
+            <main class="content">
+                <?php include_once '../folder/navbar.php' ?>
+            </main>
         </div>
-        <main class="content">
-            <?php include_once '../folder/navbar.php' ?>
-        </main>
     </div>
 <script src="https://unpkg.com/lucide@latest"></script>
 <script>

@@ -20,7 +20,6 @@
     border-right: 1px solid rgba(59, 118, 209, .5);
     min-height: 100vh;
     padding: 20px;
-    font-family: ui-sans-serif, sans-serif;
 }
 .icon {
     display: flex;
@@ -166,6 +165,10 @@
     height: 18px;
 }
 
+.search-container:hover svg{
+    stroke:black;
+}
+
 .nav-link{
     color: black;
 }
@@ -174,6 +177,10 @@
     color: #3c3c3c;
     width: 20px;
     height: 20px;
+}
+
+.nav-link:hover svg{
+    color: black;
 }
 
 .profile{
@@ -208,4 +215,27 @@
 }
 .side-active:hover{
     color: var(--blue);
+}
+
+.notif-container {
+    position: relative;
+    display: inline-block;
+
+}
+.notif-box {
+    position: absolute;
+    top: 5vh;
+    right: 0;
+    width: 20vw;
+    height: fit-content;
+    /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); */
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    display: none;
+}
+
+.notif-container:hover .notif-box{
+    display: block;
 }

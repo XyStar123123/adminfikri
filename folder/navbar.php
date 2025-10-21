@@ -5,14 +5,19 @@
     </div>
     <ul class="nav-link-container">
         <li class="nav-item">
-            <a href="" class="nav-link">
+            <a href="https://github.com/XyStar123123/adminfikri" class="nav-link" target="_blank">
                 <i data-lucide="github"></i>
             </a>
         </li>
         <li class="nav-item">
-            <a href="" class="nav-link">
-                <i data-lucide="bell"></i>
-            </a>
+            <div class="notif-container">
+                <a href="" class="nav-link">
+                    <i data-lucide="bell"></i>
+                </a>
+                <div class="notif-box">
+                    <p>Notification</p>
+                </div>
+            </div>
         </li>
         <li class="nav-item">
             <a class="nav-link" id="darkModeToggle">

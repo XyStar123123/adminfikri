@@ -116,6 +116,16 @@
     border: 1.2px black solid;
 }
 
+.tech-card:nth-child(6){
+    background-color: #24292e;
+    border: 1.2px #24292e solid;
+    color: white;
+}
+
+.tech-card:nth-child(6):hover{
+    border: 1.2px white solid;
+}
+
 .icon-tech{
     font-size: 120px;
 }
