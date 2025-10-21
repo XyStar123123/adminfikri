@@ -24,14 +24,27 @@
                             <i data-lucide="user"></i>
                         </div>
                         <div class="profile-information">
-                            <p>John Doe</p>
-                            <p>Admin</p>
-                            <p>Join Date: 26 September 2019</p>
+                            <p class="username">John Doe</p>
+                            <p class="role">Admin</p>
+                            <p class="joined-date">
+                                <i data-lucide="calendar" class="joined-date-icon"></i>
+                                Join Date: 26 September 2019
+                            </p>
                         </div>
                     </section>
-                    <section class="profile-body-section">
-                        <input type="text" value="John Doe">
-                    </section>
+                    <form class="profile-body-section">
+                        <div class="profile-form-section">
+                            <input type="text" value="John Doe" class="form-input">
+                            <input type="password" value="Halolasjnd" class="form-input">
+                            <textarea placeholder="Halo saya adalah orang yang bisa membaca dan menulis" class="form-input"></textarea>
+                        </div>
+                        <div class="profile-submit-btn-section">
+                            <button class="submit-btn" type="submit">
+                                <i data-lucide="edit"></i>
+                                Save Edit
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </main>
