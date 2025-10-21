@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="website icon" href="../img/icon.png">
     <link rel="stylesheet" href="../css/main.css">
-    <title>Admin Panel - Dashboard</title>
+    <title>Admin Panel - Users</title>
 </head>
 <body>
     <?php include_once '../folder/sidebar.php'; ?>

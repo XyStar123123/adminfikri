@@ -35,11 +35,11 @@
                     <p>TABLES</p>
                     <hr>
                 </div>
-                <a href="../pages/dashboard.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'dashboard.php' ? 'side-active' : '' ?>">
+                <a href="../pages/users.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'users.php' ? 'side-active' : '' ?>">
                     <i data-lucide="user" class="side-icon"></i>
                     <span class="side-span">Users</span>
                 </a>
-                <a href="../pages/settings.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'settings.php' ? 'side-active' : '' ?>">
+                <a href="../pages/product.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'product.php' ? 'side-active' : '' ?>">
                     <i data-lucide="box" class="side-icon"></i>
                     <span class="side-span">Product</span>
                 </a>
