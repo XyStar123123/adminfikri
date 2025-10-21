@@ -10,10 +10,22 @@
                     <p>PAGES</p>
                     <hr>
                 </div>
-                <a href="../pages/dashboard.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'dashboard.php' ? 'side-active' : '' ?>">Dashboard</a>
-                <a href="../pages/settings.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'settings.php' ? 'side-active' : '' ?>">Settings</a>
-                <a href="../pages/about.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'about.php' ? 'side-active' : '' ?>">About</a>
-                <a href="../pages/contact.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'contact.php' ? 'side-active' : '' ?>">Contact</a>
+                <a href="../pages/dashboard.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'dashboard.php' ? 'side-active' : '' ?>">
+                    <i data-lucide="home" class="side-icon"></i>
+                    <span class="side-span">Dashboard</span>
+                </a>
+                <a href="../pages/settings.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'settings.php' ? 'side-active' : '' ?>">
+                    <i data-lucide="user-square" class="side-icon"></i>
+                    <span class="side-span">Profile</span>
+                </a>
+                <a href="../pages/about.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'about.php' ? 'side-active' : '' ?>">
+                    <i data-lucide="info" class="side-icon"></i>
+                    <span class="side-span">About</span>
+                </a>
+                <a href="../pages/contact.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'contact.php' ? 'side-active' : '' ?>">
+                    <i data-lucide="phone" class="side-icon"></i>
+                    <span class="side-span">Contact</span>
+                </a>
             </div>
         </nav>
 
@@ -23,8 +35,14 @@
                     <p>TABLES</p>
                     <hr>
                 </div>
-                <a href="../pages/dashboard.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'dashboard.php' ? 'side-active' : '' ?>">Users</a>
-                <a href="../pages/settings.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'settings.php' ? 'side-active' : '' ?>">Product</a>
+                <a href="../pages/dashboard.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'dashboard.php' ? 'side-active' : '' ?>">
+                    <i data-lucide="user" class="side-icon"></i>
+                    <span class="side-span">Users</span>
+                </a>
+                <a href="../pages/settings.php" class="side-link <?= basename($_SERVER['PHP_SELF']) == 'settings.php' ? 'side-active' : '' ?>">
+                    <i data-lucide="box" class="side-icon"></i>
+                    <span class="side-span">Product</span>
+                </a>
             </div>
         </nav>
     </aside>

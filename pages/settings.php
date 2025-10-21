@@ -3,19 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="website icon" href="../img/icon.png">
+    <title>Admin Panel - Profile</title>
     <link rel="stylesheet" href="../css/main.css">
-    <title>Admin Panel - Settings</title>
-    <style>
-        * {
-            margin: 0;
-            font-family: ui-sans-serif, sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" href="../css/settings.css">
+    <link rel="website icon" href="../img/icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <?php include_once '../folder/sidebar.php' ?>
-
-    </div> <!-- Menutup div di sidebar.php -->
+    <div class="container">
+        <?php include '../folder/sidebar.php'; ?>
+        </div>
+        <main class="content">
+            <?php include_once '../folder/navbar.php' ?>
+            <div class="content-section">
+                <div class="profile-container">
+                    <section class="profile-header-section">
+                        <div class="profile-image">
+                            <i data-lucide="user"></i>
+                        </div>
+                        <div class="profile-information">
+                            <p>John Doe</p>
+                            <p>Admin</p>
+                            <p>Join Date: 26 September 2019</p>
+                        </div>
+                    </section>
+                    <section class="profile-body-section">
+                        <input type="text" value="John Doe">
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons()
+</script>
+<script src="../js/index.js" type="module"></script>
 </body>
 </html>
