@@ -146,6 +146,10 @@
     outline: none;
 }
 
+.search-container input:focus::placeholder {
+    color: transparent;
+}
+
 .search-container svg{
     stroke:#3c3c3c;
     width: 18px;

@@ -62,37 +62,58 @@
 }
 
 .tech-stack-container{
-    padding: 1rem;
+    padding: 5px;
     margin-top: 40px;
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     justify-items: center;
 }
 
 .tech-card:nth-child(1){
     background-color: #E34F26;
+    border: 1.2px #E34F26 solid;
     color: white;
+}
+
+.tech-card:nth-child(1):hover{
+    border: 1.2px black solid;
 }
 
 .tech-card:nth-child(2){
     background-color: #1572B6;
+    border: 1.2px #1572B6 solid;
     color: white;
+}
+.tech-card:nth-child(2):hover{
+    border: 1.2px black solid;
 }
 
 .tech-card:nth-child(3){
     background-color: #F7DF1E;
+    border: 1.2px #F7DF1E solid;
+}
+.tech-card:nth-child(3):hover{
+    border: 1.2px black solid;
 }
 
 .tech-card:nth-child(4){
     background-color: #777BB4;
+    border: 1.2px #777BB4 solid;
     color: white;
+}
+.tech-card:nth-child(4):hover{
+    border: 1.2px black solid;
 }
 
 .tech-card:nth-child(5){
     background-color: #00758F;
+    border: 1.2px #00758F solid;
     color: white;
+}
+.tech-card:nth-child(5):hover{
+    border: 1.2px black solid;
 }
 
 .icon-tech{
