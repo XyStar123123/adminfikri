@@ -6,6 +6,7 @@
     <title>Admin Panel - About</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/profile.css">
     <link rel="website icon" href="../img/icon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
