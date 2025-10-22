@@ -1,71 +1,113 @@
         <?php require_once '../includes/header.php' ?>
         <div class="content-section">
-            <div class="table-page-header-section">
-                <div class="table-page-header-title">
-                    <h2>Products Management</h2>
-                    <i data-lucide="chevron-down" id="headerDropdownToggle"></i>
+            <div class="table-page-container">
+                <div class="table-page-header-section">
+                    <div class="table-page-header-title">
+                        <h2>Products Management</h2>
+                        <i data-lucide="chevron-down" id="headerDropdownToggle"></i>
+                    </div>
+                    <div class="table-page-header-dropdown-filter not-visible" id="tableHeaderDropdown">
+                        <div class="table-page-dropdown">
+                            <div class="table-page-dropdown-header">
+                                <p>Name</p>
+                                <i data-lucide="chevron-down" class="dropdown-content-toggle"></i>
+                            </div>
+                            <div class="table-page-dropdown-content">
+                                <p>A-Z</p>
+                                <p>Z-A</p>
+                                <p>Limit: 5</p>
+                                <p>Limit: 10</p>
+                            </div>
+                        </div>
+                        <div class="table-page-dropdown">
+                            <div class="table-page-dropdown-header">
+                                <p>Category</p>
+                                <i data-lucide="chevron-down" class="dropdown-content-toggle"></i>
+                            </div>
+                            <div class="table-page-dropdown-content">
+                                <p>A-Z</p>
+                                <p>Z-A</p>
+                                <p>Limit: 5</p>
+                                <p>Limit: 10</p>
+                            </div>
+                        </div>
+                        <div class="table-page-dropdown">
+                            <div class="table-page-dropdown-header">
+                                <p>Price</p>
+                                <i data-lucide="chevron-down" class="dropdown-content-toggle"></i>
+                            </div>
+                            <div class="table-page-dropdown-content">
+                                <p>A-Z</p>
+                                <p>Z-A</p>
+                                <p>Limit: 5</p>
+                                <p>Limit: 10</p>
+                            </div>
+                        </div>
+                        <div class="table-page-dropdown">
+                            <div class="table-page-dropdown-header">
+                                <p>Stock</p>
+                                <i data-lucide="chevron-down" class="dropdown-content-toggle"></i>
+                            </div>
+                            <div class="table-page-dropdown-content">
+                                <p>A-Z</p>
+                                <p>Z-A</p>
+                                <p>Limit: 5</p>
+                                <p>Limit: 10</p>
+                            </div>
+                        </div>
+                        <div class="table-page-dropdown">
+                            <div class="table-page-dropdown-header">
+                                <p>Status</p>
+                                <i data-lucide="chevron-down" class="dropdown-content-toggle"></i>
+                            </div>
+                            <div class="table-page-dropdown-content">
+                                <p>A-Z</p>
+                                <p>Z-A</p>
+                                <p>Limit: 5</p>
+                                <p>Limit: 10</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="table-page-header-dropdown-filter not-visible" id="tableHeaderDropdown">
-                    <div class="table-page-dropdown">
-                        <div class="table-page-dropdown-header">
-                            <p>Name</p>
-                            <i data-lucide="chevron-down" class="dropdown-content-toggle"></i>
+                <div class="table-page-body-section">
+                    <div class="table-page-body-header">
+                        <div class="table-page-search-container">
+                            <i data-lucide="search"></i>
+                            <input type="text" placeholder="Search product..." class="table-search-input">
                         </div>
-                        <div class="table-page-dropdown-content">
-                            <p>A-Z</p>
-                            <p>Z-A</p>
-                            <p>Limit: 5</p>
-                            <p>Limit: 10</p>
-                        </div>
-                    </div>
-                    <div class="table-page-dropdown">
-                        <div class="table-page-dropdown-header">
-                            <p>Category</p>
-                            <i data-lucide="chevron-down" class="dropdown-content-toggle"></i>
-                        </div>
-                        <div class="table-page-dropdown-content">
-                            <p>A-Z</p>
-                            <p>Z-A</p>
-                            <p>Limit: 5</p>
-                            <p>Limit: 10</p>
+                        <div class="misc-action-button">
+                            <button class="btn convert-csv-btn">
+                                <i data-lucide="file-plus"></i>
+                                <p>Convert to CSV</p>
+                            </button>
+                            <button class="btn add-btn">
+                                <i data-lucide="plus-circle"></i>
+                                <p>Add Student</p>
+                            </button>
                         </div>
                     </div>
-                    <div class="table-page-dropdown">
-                        <div class="table-page-dropdown-header">
-                            <p>Price</p>
-                            <i data-lucide="chevron-down" class="dropdown-content-toggle"></i>
-                        </div>
-                        <div class="table-page-dropdown-content">
-                            <p>A-Z</p>
-                            <p>Z-A</p>
-                            <p>Limit: 5</p>
-                            <p>Limit: 10</p>
-                        </div>
-                    </div>
-                    <div class="table-page-dropdown">
-                        <div class="table-page-dropdown-header">
-                            <p>Stock</p>
-                            <i data-lucide="chevron-down" class="dropdown-content-toggle"></i>
-                        </div>
-                        <div class="table-page-dropdown-content">
-                            <p>A-Z</p>
-                            <p>Z-A</p>
-                            <p>Limit: 5</p>
-                            <p>Limit: 10</p>
-                        </div>
-                    </div>
-                    <div class="table-page-dropdown">
-                        <div class="table-page-dropdown-header">
-                            <p>Status</p>
-                            <i data-lucide="chevron-down" class="dropdown-content-toggle"></i>
-                        </div>
-                        <div class="table-page-dropdown-content">
-                            <p>A-Z</p>
-                            <p>Z-A</p>
-                            <p>Limit: 5</p>
-                            <p>Limit: 10</p>
-                        </div>
-                    </div>
+                    <table class="table-page-body-table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Category</th>
+                                <th>Price</th>
+                                <th>Stock</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Samsung Galaxy S25 Ultra</td>
+                                <td>Electronic</td>
+                                <td>Rp. 25,000,000</td>
+                                <td>253</td>
+                                <td>Active</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
