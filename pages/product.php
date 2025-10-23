@@ -77,7 +77,7 @@
                             <input type="text" placeholder="Search product..." class="table-search-input">
                         </div>
                         <div class="misc-action-button">
-                            <button class="btn convert-csv-btn">
+                            <button class="btn convert-csv-btn" id="convertCsvBtn">
                                 <i data-lucide="file-plus"></i>
                                 <p>Convert to CSV</p>
                             </button>
