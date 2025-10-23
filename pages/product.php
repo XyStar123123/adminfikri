@@ -95,6 +95,7 @@
                                 <th>Price</th>
                                 <th>Stock</th>
                                 <th>Status</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -105,6 +106,24 @@
                                 <td>Rp. 25,000,000</td>
                                 <td>253</td>
                                 <td>Active</td>
+                                <td class="action-table">
+                                    <i data-lucide="eye" class="action-icon"></i>
+                                    <i data-lucide="edit" class="action-icon"></i>
+                                    <i data-lucide="trash-2" class="action-icon"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Samsung Galaxy S25 Ultra</td>
+                                <td>Electronic</td>
+                                <td>Rp. 25,000,000</td>
+                                <td>253</td>
+                                <td>Active</td>
+                                <td class="action-table">
+                                    <i data-lucide="eye" class="action-icon"></i>
+                                    <i data-lucide="edit" class="action-icon"></i>
+                                    <i data-lucide="trash-2" class="action-icon"></i>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
