@@ -83,7 +83,7 @@
                             </button>
                             <button class="btn add-btn">
                                 <i data-lucide="plus-circle"></i>
-                                <p>Add Student</p>
+                                <p>Add Product</p>
                             </button>
                         </div>
                     </div>
