@@ -26,7 +26,7 @@
             </a>
         </li>
         <li class="nav-profile">
-            <img src="../img/profile.png" alt="">
+            <img src="../assets/img/profile.png" alt="">
         </li>
     </ul>
 </nav>

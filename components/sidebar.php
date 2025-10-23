@@ -1,6 +1,6 @@
     <aside class="sidebar">
         <div class="sidebar-header">
-            <img src="../img/icon.png" class="sidebar-header-icon">
+            <img src="../assets/img/icon.png" class="sidebar-header-icon">
             <a href="about.php" class="sidebar-header-title">Admin<span class="sidebar-header-title-admin">Panel<span></a>
         </div>
         <nav class="sidebar-link-container">

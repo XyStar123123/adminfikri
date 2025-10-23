@@ -1,4 +1,5 @@
         <?php require_once '../includes/header.php' ?>
+        <?php require_once '../actions/select_products.php' ?>
         <div class="content-section">
             <div class="table-page-container">
                 <div class="table-page-header-section">
@@ -99,20 +100,22 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Samsung Galaxy S25 Ultra</td>
-                                <td>Electronic</td>
-                                <td>Rp. 25,000,000</td>
-                                <td>253</td>
-                                <td>Active</td>
-                                <td class="action-table">
-                                    <i data-lucide="eye" class="action-icon"></i>
-                                    <i data-lucide="edit" class="action-icon"></i>
-                                    <i data-lucide="trash-2" class="action-icon"></i>
-                                </td>
-                            </tr>
-                            <tr>
+                            <?php foreach($rows as $p): ?>
+                                <tr>
+                                    <td><?= ++$no ?></td>
+                                    <td><?= $p['name'] ?></td>
+                                    <td><?= $p['category'] ?></td>
+                                    <td><?= $p['price'] ?></td>
+                                    <td><?= $p['stock'] ?></td>
+                                    <td><?= $p['status'] ?></td>
+                                    <td class="action-table">
+                                        <i data-lucide="eye" class="action-icon"></i>
+                                        <i data-lucide="edit" class="action-icon"></i>
+                                        <i data-lucide="trash-2" class="action-icon"></i>
+                                    </td>
+                                </tr>
+                            <?php endforeach; ?>
+                            <!-- <tr>
                                 <td>2</td>
                                 <td>Samsung Galaxy S25 Ultra</td>
                                 <td>Electronic</td>
@@ -124,7 +127,7 @@
                                     <i data-lucide="edit" class="action-icon"></i>
                                     <i data-lucide="trash-2" class="action-icon"></i>
                                 </td>
-                            </tr>
+                            </tr> -->
                         </tbody>
                     </table>
                 </div>
