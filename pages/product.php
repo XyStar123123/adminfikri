@@ -1,4 +1,4 @@
-        <?php require_once '../includes/header.php' ?>
+        <?php $title = "Admin Panel - Product"; require_once '../includes/header.php'; ?>
         <?php require_once '../actions/select_products.php' ?>
         <div class="content-section">
             <div class="table-page-container">

@@ -1,4 +1,4 @@
-            <?php require_once '../includes/header.php' ?>
+            <?php $title = "Admin Panel - About"; require_once '../includes/header.php'; ?>
             <div class="content-section">
                 <section class="app-info-section">
                     <h2 class="app-info-header">
@@ -51,29 +51,55 @@
                         <p>Tech Stack</p>
                     </h2>
                     <div class="tech-stack-container">
-                        <div class="tech-card">
-                            <i class="bx bxl-html5 icon-tech"></i>
-                            <h3>HTML</h3>
-                        </div>
-                        <div class="tech-card">
-                            <i class="bx bxl-css3 icon-tech"></i>
-                            <h3>CSS</h3>
-                        </div>
-                        <div class="tech-card">
-                            <i class="bx bxl-javascript icon-tech"></i>
-                            <h3>JavaScript</h3>
-                        </div>
-                        <div class="tech-card">
-                            <i class="bx bxl-php icon-tech"></i>
-                            <h3>PHP</h3>
-                        </div>
-                        <div class="tech-card">
-                            <i class="devicon-mysql-plain icon-tech"></i>
-                            <h3>MySQL</h3>
-                        </div>
-                        <div class="tech-card">
-                            <i class="devicon-github-plain icon-tech"></i>
-                            <h3>GitHub</h3>
+                        <div class="tech-card-tracker">
+                            <div class="tech-card">
+                                <i class="bx bxl-html5 icon-tech"></i>
+                                <h3>HTML</h3>
+                            </div>
+                            <div class="tech-card">
+                                <i class="bx bxl-css3 icon-tech"></i>
+                                <h3>CSS</h3>
+                            </div>
+                            <div class="tech-card">
+                                <i class="bx bxl-javascript icon-tech"></i>
+                                <h3>JavaScript</h3>
+                            </div>
+                            <div class="tech-card">
+                                <i class="bx bxl-php icon-tech"></i>
+                                <h3>PHP</h3>
+                            </div>
+                            <div class="tech-card">
+                                <i class="devicon-mysql-plain icon-tech"></i>
+                                <h3>MySQL</h3>
+                            </div>
+                            <div class="tech-card">
+                                <i class="devicon-github-plain icon-tech"></i>
+                                <h3>GitHub</h3>
+                            </div>
+                            <div class="tech-card">
+                                <i class="bx bxl-html5 icon-tech"></i>
+                                <h3>HTML</h3>
+                            </div>
+                            <div class="tech-card">
+                                <i class="bx bxl-css3 icon-tech"></i>
+                                <h3>CSS</h3>
+                            </div>
+                            <div class="tech-card">
+                                <i class="bx bxl-javascript icon-tech"></i>
+                                <h3>JavaScript</h3>
+                            </div>
+                            <div class="tech-card">
+                                <i class="bx bxl-php icon-tech"></i>
+                                <h3>PHP</h3>
+                            </div>
+                            <div class="tech-card">
+                                <i class="devicon-mysql-plain icon-tech"></i>
+                                <h3>MySQL</h3>
+                            </div>
+                            <div class="tech-card">
+                                <i class="devicon-github-plain icon-tech"></i>
+                                <h3>GitHub</h3>
+                            </div>
                         </div>
                     </div>
                 </section>

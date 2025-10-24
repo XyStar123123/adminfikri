@@ -1,22 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Panel - Contact</title>
-    <link rel="stylesheet" href="../assets/css/main.css">
-    <link rel="stylesheet" href="../assets/css/profile.css">
-    <link rel="website icon" href="../assets/img/icon.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-    <link href="https://unpkg.com/boxicons@2.1.4/assets/css/boxicons.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="container">
-        <?php include '../components/sidebar.php'; ?>
-        <main class="content">
-            <?php include_once '../components/navbar.php' ?>
+<?php $title = "Admin Panel - Contact"; require_once '../includes/header.php'; ?>
         </main>
+    </div>
     </div>
 <script src="https://unpkg.com/lucide@latest"></script>
 <script>

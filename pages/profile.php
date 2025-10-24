@@ -1,4 +1,4 @@
-            <?php require_once '../includes/header.php' ?>
+            <?php $title = "Admin Panel - Profile"; require_once '../includes/header.php'; ?>
             <div class="content-section">
                 <div class="profile-container">
                     <section class="profile-header-section">
