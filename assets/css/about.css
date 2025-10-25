@@ -149,6 +149,7 @@
     display: flex;
     width: max-content;
     animation: scroll 10s linear infinite;
+    gap: 20px;
 }
 
 .tech-stack-container:hover .tech-card-tracker {
