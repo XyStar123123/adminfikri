@@ -1,5 +1,5 @@
         <?php $title = "Admin Panel - Product"; require_once '../includes/header.php'; ?>
-        <?php require_once '../actions/select_products.php' ?>
+        <?php require_once '../actions/products/select_products.php' ?>
         <div class="content-section">
             <div class="table-page-container">
                 <div class="table-page-header-section">
@@ -81,10 +81,10 @@
                                 <i data-lucide="file-plus"></i>
                                 <p>Convert to CSV</p>
                             </button>
-                            <button class="btn add-btn">
+                            <a href="add_product.php" class="btn add-btn">
                                 <i data-lucide="plus-circle"></i>
                                 <p>Add Product</p>
-                            </button>
+                            </a>
                         </div>
                     </div>
                     <table class="table-page-body-table">
@@ -109,9 +109,15 @@
                                     <td><?= $p['stock'] ?></td>
                                     <td><?= $p['status'] ?></td>
                                     <td class="action-table">
-                                        <i data-lucide="eye" class="action-icon"></i>
-                                        <i data-lucide="edit" class="action-icon"></i>
-                                        <i data-lucide="trash-2" class="action-icon"></i>
+                                        <a href="">
+                                            <i data-lucide="eye" class="action-icon"></i>
+                                        </a>
+                                        <a href="edit_product.php?product_id=<?= $p['id'] ?>">
+                                            <i data-lucide="edit" class="action-icon"></i>
+                                        </a>
+                                        <a href="delete_product.php?product_id=<?= $p['id'] ?>">
+                                            <i data-lucide="trash-2" class="action-icon"></i>
+                                        </a>
                                     </td>
                                 </tr>
                             <?php endforeach; ?>

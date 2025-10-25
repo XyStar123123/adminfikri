@@ -4,6 +4,6 @@ export function initExportCsv(){
     if(!convertCsvBtn) return
 
     convertCsvBtn.addEventListener("click", ()=>{
-        window.location.href = '../actions/export_products_csv.php';
+        window.location.href = '../actions/products/export_products_csv.php';
     })
 }
